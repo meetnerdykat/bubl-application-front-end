@@ -64,13 +64,24 @@ ul {
   padding: 0;
 }
 
-.kidsImage {
-  width: 90%;
-  height: auto;
-}
-
-.bublCta {
-  margin-bottom: 20px;
+.box1 {
+  position: relative;
+  margin-top: 50px;
+  z-index: 0;
+  top: 40px;
+  left: -20px;
+  animation: bobbleRight 7s infinite;
+  @keyframes bobbleRight {
+    0% {
+      transform: translateX(10px);
+    }
+    50% {
+      transform: translateY(30px);
+    }
+    100% {
+      transform: translateX(10px);
+    }
+  }
 }
 
 .signupBtn {
@@ -114,14 +125,70 @@ ul {
   text-decoration: none;
 }
 
-.content-titles {
-  margin-top: 50px;
+.bublCta {
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 100;
+  top: -430px;
+  left: 0;
+}
+
+.bubblesBg {
+  position: relative;
+  top: -240px;
+  left: 0;
+  z-index: 200;
+}
+
+.kidsImage {
+  width: 80%;
+  height: auto;
+  position: relative;
+  top: -550px;
+  left: -20px;
+  z-index: 300;
+}
+
+.bubblekids {
+  position: relative;
+  top: -30px;
+  left: -80px;
+  z-index: 400;
 }
 
 .mainPara {
   margin-top: 20px;
   line-height: 1.5;
   font-size: 1.25em;
+}
+
+.box2 {
+  animation: bobbleRight 8s infinite;
+  @keyframes bobbleRight {
+    0% {
+      transform: translateX(10px);
+    }
+    50% {
+      transform: translateY(30px);
+    }
+    100% {
+      transform: translateX(10px);
+    }
+  }
+}
+
+.row1 {
+  position: relative;
+  top: -430px;
+  left: 0;
+  z-index: 500;
+}
+
+.row2 {
+  position: relative;
+  top: -430px;
+  left: 0;
+  z-index: 600;
 }
 
 video {
