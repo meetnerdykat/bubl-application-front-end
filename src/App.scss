@@ -3,7 +3,10 @@
 
 .App {
   text-align: center;
-  font-family: 'ABeeZee', sans-serif;
+  font-family: 'ABeeZee', cursive;
+  margin: 0 auto;
+  color: #fff;
+  line-height: 1.8;
 }
 
 // .App-logo {
@@ -51,12 +54,22 @@ nav a {
   // color: #fff;
   color: $white;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 nav a:hover {
-  // background-color: #fff;
-  background-color: $white;
-  color: #2e008f;
+  background-color: transparent;
+  // background-color: $white;
+  color: $seablueish;
+  text-decoration: none;
+  border: 1px solid $seablueish;
+  border-radius: 50px;
+}
+
+.navLogo:hover {
+  background-color: none;
+  transform: scale3d(1.2, 1.2, 1.2) rotate(-10deg);
+  border: none;
 }
 
 ul {
@@ -64,8 +77,9 @@ ul {
 }
 
 .activeNav {
-  background-color: #fff;
+  background-color: $seablueish;
   color: #2e008f;
+  border-radius: 50px;
 }
 
 .heading2 {
@@ -77,6 +91,64 @@ ul {
 .schoolUl {
   margin: 0 auto;
   padding: 0;
+}
+
+.content-titles {
+  margin-top: 50px;
+}
+
+.kidsImage {
+  width: 90%;
+  height: auto;
+}
+
+.signupBtn {
+  display: block;
+  max-width: 200px;
+  margin: 20px auto 0px auto;
+  padding: 5px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  border: 1px solid $seablueish;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+.loginBtn {
+  display: block;
+  max-width: 200px;
+  margin: 5px auto 0px auto;
+  padding: 5px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  border: 1px solid $brightgreenish;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+.signupBtn:hover,
+.loginBtn:hover {
+  color: $white;
+  background: linear-gradient(270deg, #00e6ff 20%, #00a3ff 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  margin: 11px auto; // makes it not jumpy!
+  text-shadow: none;
+  text-decoration: none;
+}
+
+video {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
 }
 
 // .schoolUl > .schoolLinks > a{
