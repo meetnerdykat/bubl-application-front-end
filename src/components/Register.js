@@ -37,7 +37,7 @@ class Register extends Component {
    render() {
       return (
          <Form onSubmit={this.handleSubmit}>
-            <h2>Register</h2>
+            <h2 className="heading2">Register</h2>
             {this.props.registerError && <p>Error on sign up, try again</p>}
             <Label htmlFor="firstName">First Name:</Label>
             <Input name="firstName" value={this.state.newUser.firstName} onChange={this.handleChange} placeholder="First Name" />

@@ -56,7 +56,7 @@ class Login extends React.Component {
     return (
       <div>
         <Form onSubmit={this.handleLogin}>
-          <h2>Login</h2>
+          <h2 className="heading2">Login</h2>
           {this.props.loginError && <p>Error on login, try again</p>}
           <Label htmlFor="username">Enter Your Username:</Label>
           <Input

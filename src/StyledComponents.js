@@ -40,13 +40,13 @@ export const Input = styled.input`
 `;
 
 export const LoginButton = styled.button`
-  background-color: dodgerblue;
-  border: 2px solid dodgerblue;
+  background-color: #5af3fd;
+  border: 2px solid #5af3fd;
   border-radius: 3px;
   margin: 3px;
   padding: 10px;
   font-size: 14px;
-  color: #fff;
+  color: #2e008f;
   width: 275px;
   cursor: pointer;
 

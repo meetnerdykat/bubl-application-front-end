@@ -45,14 +45,14 @@ function App() {
                 <NavLink to="/team" activeClassName="activeNav">
                   The Team
                 </NavLink>
+                <NavLink to="/schools" activeClassName="activeNav">
+                  Schools
+                </NavLink>
                 <NavLink to="/login" activeClassName="activeNav">
                   Login
                 </NavLink>
                 <NavLink to="/register" activeClassName="activeNav">
-                  Register
-                </NavLink>
-                <NavLink to="/schools" activeClassName="activeNav">
-                  Schools
+                  Signup
                 </NavLink>
               </div>
             </div>
